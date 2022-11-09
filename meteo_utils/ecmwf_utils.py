@@ -71,7 +71,7 @@ HOURS_FORECAST_CAMS = (0, 12, 24)
 HOURS_FORECAST_INTERIM = (0, 26)
 
 ADS_CREDENTIALS_FILE = os.path.join(os.path.expanduser("~"),
-                                    '.adsapirc')
+                                    '.cdsapirc')
 
 def download_CDS_data(dataset, product_type, date_start, date_end, variables,
                       target,
